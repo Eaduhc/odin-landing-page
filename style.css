@@ -16,8 +16,8 @@ a {
     text-decoration: none;
 }
 
-/* 页面头部 hero 样式 */
-.hero {
+/* 页面头部样式 */
+.header {
     background-color: #1f2937;
     padding: 10px 200px;
 }
@@ -42,4 +42,43 @@ a {
     display: flex;
     gap: 40px;
     list-style: none;
+}
+
+/* 设置 hero 样式 */
+.hero {
+    display: flex;
+    margin: 100px 0;
+    gap: 50px;
+}
+
+/* 设置 hero 左边文字部分样式 */
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* 设置 hero 标题样式 */
+.hero-main-text {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+/* 设置 hero 标题下附加文字样式 */
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* 设置 hero 注册按钮样式 */
+.hero-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 0;
 }
