@@ -182,3 +182,12 @@ a {
     border-radius: 10px;
     padding: 10px 50px;
 }
+
+/* 页面底部版权信息样式 */
+.footer {
+    background-color: #1f2937;
+    padding: 50px 0;
+    color: #e5e7eb;
+    font-size: 18px;
+    text-align: center;
+}
