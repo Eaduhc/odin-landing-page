@@ -123,3 +123,26 @@ a {
     color: gray;
     text-align: center;
 }
+
+/* quote 区域样式 */
+.quote {
+    background-color: #e5e7eb;
+    padding: 150px 300px 100px;
+}
+
+/* quote 文字样式 */
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: justify;
+}
+
+/* quote 人名样式 */
+.quote-person {
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
