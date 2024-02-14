@@ -38,7 +38,7 @@ a {
 /* 头部导航链接样式 */
 .header-link {
     font-size: 18px;
-    color: #e5e7eb;
+    color: gray;
     display: flex;
     gap: 40px;
     list-style: none;
@@ -67,7 +67,7 @@ a {
 /* 设置 hero 标题下附加文字样式 */
 .hero-secondary-text {
     font-size: 18px;
-    color: #e5e7eb;
+    color: gray;
 }
 
 /* 设置 hero 注册按钮样式 */
@@ -81,4 +81,45 @@ a {
     border: none;
     border-radius: 5px;
     padding: 5px 0;
+}
+
+/* 页面 information 区域样式 */
+.information {
+    padding: 0 300px;
+    margin-bottom: 100px;
+}
+
+/* information 区域标题样式 */
+.information-title {
+    color: #1f2937;
+    font-size: 36px;
+    text-align: center;
+    margin: 50px 0;
+}
+
+/* 四个 information item 所在区域样式 */
+.information-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* information item 样式 */
+.information-item {
+    width: 200px;
+}
+
+/* information item 图片样式 */
+.information-item-image {
+    width: 200px;
+    height: 200px;
+    border: #3882f6 5px solid;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+/* information item 标题样式 */
+.information-item-subtext {
+    font-size: 18px;
+    color: gray;
+    text-align: center;
 }
